@@ -1,0 +1,31 @@
+{
+  "name": "gweather",
+  "version": "1.0.0",
+  "description": "CLI for getting weather",
+  "main": "index.js",
+  "bin": {
+    "gweather": "index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "weather"
+  ],
+  "author": "Garik Freedomyan",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garikfreedomyan/weather-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/garikfreedomyan/weather-cli/issues"
+  },
+  "homepage": "https://github.com/garikfreedomyan/weather-cli#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "chalk": "^5.0.1"
+  }
+}
